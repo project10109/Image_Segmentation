@@ -1,6 +1,6 @@
 numpy==1.23.3
 h5py==3.10.0
-#tqdm
+tqdm
 keras==2.10.0
 tensorflow>=2.2
 opencv-python==4.8.0.76
