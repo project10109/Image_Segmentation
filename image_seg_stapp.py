@@ -48,14 +48,14 @@ def main():
     # image2 = cv2.imread('/Users/dhanashreekarande/Downloads/'+name)
             if st.button('Perform Image Segmentation'):
 
-                out = model1.predict_segmentation(inp=img,overlay_img=True,out_fname="dataset1/images_prepped_test/image__output.png")
-                out_nonoverlay = model1.predict_segmentation(inp=img,overlay_img=False,out_fname="dataset1/images_prepped_test/image__nonoverlay_output.png")
+                out = model1.predict_segmentation(inp=img,overlay_img=True,out_fname="/tmp/image__output.png")
+                out_nonoverlay = model1.predict_segmentation(inp=img,overlay_img=False,out_fname="/tmp/image__nonoverlay_output.png")
 
 
 
 
     # Define allowed image folder path
-    image_folder = '/Users/dhanashreekarande/Desktop/SSIT Projects/image_segmentation/dataset1/images_prepped_test/'
+    image_folder = '/tmp/'
     output_filename='image__output.png'
 
     output_filename_nonoverlay='image__nonoverlay_output.png'
