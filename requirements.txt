@@ -8,3 +8,4 @@ opencv-python-headless==4.5.3.56
 imageio==2.33.0
 imgaug==0.4.0
 streamlit==1.12.2
+streamlit-option-menu
