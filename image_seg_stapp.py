@@ -145,7 +145,8 @@ def main():
       # Use a nested container for better styling
       # with side_header.container():
           # Employ st.sidebar for side positioning
-      st.header("Upload an image to see its segmentation")
+      st.title('Image Segmentation')
+      st.markdown("### Upload an image to see its segmentation")
 
       # # File upload element within the sidebar
       image_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
